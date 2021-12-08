@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+html {
+  font-size: 625%;
+}
+body {
+  background-color: #f5f5f5;
+}
+/* 头部 */
+.topnav {
+  width: 100%;
+  height: 0.5rem;
+  background-color: #ff8a00;
+  display: flex;
+}
+.topnav .toplogo {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex: 1;
+}
+.topnav .toplogo a {
+  width: 1.2rem;
+  height: 0.4rem;
+  margin-left: -0.3rem;
+  display: flex;
+}
+.topnav .toplogo a img {
+  width: 100%;
+  height: 0.4rem;
+}
+.topnav .topicon {
+  flex: 1;
+  display: flex;
+  justify-content: space-evenly;
+}
+.topnav .topicon a {
+  width: 17%;
+  display: flex;
+  align-items: center;
+  margin-right: -0.3rem;
+}
+.topnav .topicon a img {
+  width: 100%;
+  height: 0.4rem;
+}
+/* 首页>我的>登录 */
+.top-nav-two {
+  width: 100%;
+  height: 0.45rem;
+  background-color: #fff;
+  border-bottom: 1px solid #f5f5f5;
+  display: flex;
+}
+.top-nav-two span {
+  width: 100%;
+  height: 0.45rem;
+  font-size: 0.13rem;
+  display: flex;
+  align-items: center;
+  margin-left: 0.15rem;
+}
+.top-nav-two span a {
+  font-size: 0.13rem;
+  color: black;
+  padding: 0px 0.05rem;
+}
+.top-nav-two span a:nth-child(1) {
+  font-weight: 600;
+}
+/* 登陆方式切换 */
+.login {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.login .login-top {
+  width: 100%;
+  height: 0.5rem;
+  background-color: white;
+  display: flex;
+}
+.login .login-top li {
+  flex: 1;
+  width: 100%;
+  align-self: stretch;
+  font-size: 0.16rem;
+  border-bottom: 4px solid #D1D1D1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.login .login-top .login-tap {
+  border-bottom: 4px solid #FF8A00;
+}
+.login .login-ipt {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+.login .login-ipt li {
+  width: 100%;
+  height: 0.5rem;
+  border-bottom: 1px solid #D1D1D1;
+  display: flex;
+}
+.login .login-ipt li input {
+  width: 100%;
+  font-size: 0.15rem;
+  border: none;
+  outline: none;
+  text-indent: 0.15rem;
+}
+.login .login-ipt .tel {
+  display: flex;
+  align-items: center;
+}
+.login .login-ipt .tel a {
+  width: 1.5rem;
+  height: 0.4rem;
+  font-size: 0.16rem;
+  text-align: center;
+  line-height: 0.4rem;
+  color: #D1D1D1;
+  border: 1px solid #D1D1D1;
+  margin-right: 0.2rem;
+}
+.login .hide {
+  display: none;
+}
+.login .block {
+  display: block;
+}
+.login .deng {
+  padding: 0 1rem;
+  height: 0.5rem;
+  background-color: #FF8A00;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.2rem;
+  outline: none;
+  border: none;
+  margin-top: 0.2rem;
+}
+.login p {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.2rem;
+}
+.login p a {
+  font-size: 0.13rem;
+  color: #666;
+}
+.login p a:nth-child(1) {
+  color: #ff8a00;
+}

@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%;
+}
+html ul {
+  list-style: none;
+}
+html a {
+  text-decoration: none;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+  border: 1px solid #e9e2e2;
+}
+.container .beizu_top {
+  width: 100%;
+  height: 60px;
+  color: black;
+  padding: 10px;
+  font-size: 2rem;
+  line-height: 60px;
+}
+.container .beizu_top span {
+  font-weight: bold;
+}
+.container .beizu_search {
+  width: 100%;
+  height: 100px;
+  background-color: #f5f5f5;
+  position: relative;
+  overflow: hidden;
+}
+.container .beizu_search input {
+  display: block;
+  width: 70%;
+  height: 60px;
+  margin: 20px auto;
+}
+.container .beizu_search span {
+  display: block;
+  width: 80px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 15%;
+  border-left: 1px solid black;
+}
+.container .beizu_search span img {
+  display: block;
+  margin: auto;
+}
+.container .beizu_nav {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 3rem;
+  color: gray;
+}
+.container .beizu_nav li {
+  display: flex;
+}
+.container .beizu_nav li span:nth-of-type(2) {
+  display: block;
+  border: 10px solid;
+  border-color: #e6e4e1 transparent transparent transparent;
+}
+.container .beizu_item {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: gray;
+}
+.container .beizu_item li {
+  padding: 20px;
+  border-bottom: 1px solid orange;
+  width: 94%;
+  display: flex;
+}
+.container .beizu_item li a {
+  display: flex;
+  width: 100%;
+}
+.container .beizu_item li a img {
+  flex: 1;
+}
+.container .beizu_item li a .right {
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-left: 20px;
+}
+.container .beizu_item li a .right p:nth-of-type(1) {
+  color: black;
+  font-weight: bold;
+  font-size: 4rem;
+}
+.container .beizu_item li a .right span {
+  font-size: 2rem;
+}
+.container .beizu_item li a .right div {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  color: orange;
+  font-weight: bold;
+}
+.container .beizu_item li a .right div span:nth-of-type(1) {
+  padding: 10px;
+  border: 1px solid green;
+  color: green;
+}

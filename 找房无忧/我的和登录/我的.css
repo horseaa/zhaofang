@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%;
+}
+html ul {
+  list-style: none;
+}
+html a {
+  text-decoration: none;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+  border: 1px solid #e7e2e2;
+}
+.container .beizu_top {
+  width: 98%;
+  height: 60px;
+  color: black;
+  padding: 10px;
+  font-size: 2rem;
+  line-height: 60px;
+  border: 1px solid #e6dddd;
+}
+.container .beizu_top span {
+  font-weight: bold;
+}
+.container .my_banner {
+  width: 100%;
+  height: 300px;
+  background: url(../image/my/bg2.png) no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.container .my_banner .touxiang {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.container .my_banner span {
+  position: absolute;
+  bottom: 20%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 2rem;
+  color: white;
+}
+.container .my_item {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.container .my_item li {
+  width: 94%;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  margin: 0 auto;
+  font-size: 2rem;
+  color: gray;
+  border-bottom: 1px solid #dddada;
+}
+.container .my_item li a {
+  color: gray;
+}
+.container .my_exit {
+  width: 100%;
+  height: 400px;
+  background-color: #e2d9d9;
+  overflow: hidden;
+}
+.container .my_exit button {
+  border: 1px solid #e4dcdc;
+  display: block;
+  margin: 50px auto;
+  width: 70%;
+  height: 80px;
+  text-align: center;
+  line-height: 80px;
+  color: orange;
+  background-color: white;
+  font-size: 2rem;
+}

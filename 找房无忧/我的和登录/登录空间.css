@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%;
+}
+html ul {
+  list-style: none;
+}
+html a {
+  text-decoration: none;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+  border: 1px solid #e7e2e2;
+}
+.container .login_banner {
+  width: 100%;
+  height: 370px;
+  background: url(../image/my/bg1.png) no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.container .login_banner .top {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  color: white;
+  font-size: 2rem;
+  position: absolute;
+  height: 70px;
+}
+.container .login_banner .user {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.container .login_banner .my {
+  top: 5%;
+  right: 13%;
+}
+.container .login_banner .app {
+  top: 5%;
+  right: 5%;
+}
+.container .login_banner button {
+  width: 80px ;
+  height: 40px;
+  color: white;
+  border: 2px solid white;
+  text-align: center;
+  line-height: 40px;
+  font-size: 2rem;
+  position: absolute;
+  bottom: 15%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(219, 206, 145, 0.1);
+}
+.container .my_item {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.container .my_item li {
+  width: 94%;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  margin: 0 auto;
+  font-size: 2rem;
+  color: gray;
+  border-bottom: 1px solid #dddada;
+}
+.container .my_item li left {
+  display: flex;
+}

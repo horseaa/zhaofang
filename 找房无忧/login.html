@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>找房无忧-登录</title>
+    <link rel="stylesheet" href="./login.css">
+</head>
+
+<body>
+    <!-- 头部导航栏 -->
+    <header class="topnav">
+        <!-- 头部左侧logo -->
+        <div class="toplogo">
+            <a href="./index.html">
+                <img src="./image/index/logo.jpg" alt="">
+            </a>
+        </div>
+        <!-- 头部右侧 我的 跟下载app -->
+        <div class="topicon">
+            <a href="./my.html"><img src="./image/index/my.jpg" alt=""></a>
+            <a href="#"><img src="./image/index/xiazai.jpg" alt=""></a>
+        </div>
+    </header>
+    <!-- 总体 -->
+    <main class="maxbox">
+        <!-- 首页>我的>登录 -->
+        <div class="top-nav-two">
+            <span>
+                <a href="./index.html">首页</a>
+                <a href="./findPassword.html">>我的</a>
+                <a href="./register.html">>登录</a>
+            </span>
+        </div>
+        <!-- 登陆方式切换 -->
+        <div class="login">
+            <ul class="login-top">
+                <li class="login-tap" id="put">普通登录</li>
+                <li id="ya">验证码快捷登录</li>
+            </ul>
+            <ul class="login-ipt">
+                <li>
+                    <input type="text" id="sjh" placeholder="请输入手机号码">
+                </li>
+                <li>
+                    <input type="password" name="" id="mima" placeholder="请输入密码">
+                </li>
+            </ul>
+            <form action="./我的和登录/我的.html" onsubmit="tiaoZhuan()" method="get">
+                <ul class=" login-ipt hide ">
+                    <li class="tel ">
+                        <input type="text " placeholder="请输入手机号码 ">
+                        <a href="# " class="yzm ">发送验证码</a>
+                    </li>
+                    <li>
+                        <input type="password " name=" " id=" " placeholder="请输入短信中的验证码 ">
+                    </li>
+                </ul>
+                <input class="deng" id="denglu" type="submit" value="立即登录 ">
+            </form>
+
+            <p><a href="./李世乐/注册01.html ">立即注册</a><a href="./李世乐/找回密码.html ">忘记密码</a></p>
+        </div>
+    </main>
+</body>
+<script src="./js/touch.min.js "></script>
+<script src="./js/login.js "></script>
+
+</html>
+<script>
+    // function tiaoZhuan() {
+    var sjh = document.getElementById('sjh');
+    sjh.onblur = function() {
+        var reg = /^1[3-9][0-9]{9}$/;
+        if (!reg.test(sjh.value)) {
+            alert('请输入正确的手机号');
+            return false;
+        }
+    }
+    var mima = document.getElementById('mima');
+    var aa = document.getElementById("denglu")
+    aa.onclick = function() {
+            var reg1 = 111222;
+            if (reg1 != (mima.value)) {
+                alert('请输入正确的密码');
+                return false;
+            } else {
+                // alert('登录成功！');
+
+            }
+        }
+        // }
+</script>
